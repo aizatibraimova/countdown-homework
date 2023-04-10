@@ -1,0 +1,71 @@
+body {
+    background-image: url(photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(23, 111, 194);
+
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    opacity: 0.8;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 70px;
+    padding: 20px;
+    border: 3px solid black; 
+    background-color: azure;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.birthday{
+    background-color:azure; 
+    height: 300px;
+    width: 200px;
+    margin-top: 50px;
+    border: black solid 3px;
+    opacity: 0.8;
+}
+
+.block {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+h3 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+}
+.days, .hours, .minutes, .seconds {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 40px;
+}
+.thatDay {
+    font-size: 80px;
+    border: none;
+    font-family: 'Ephesis', cursive;
+    color: rgb(11, 24, 214);
+}
+button {
+    margin-left: 100px;
+    border: none;
+}
+
+@media all and (max-width: 800px) {
+    h1 {
+        font-size: 60px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 50px;
+    }
+}
